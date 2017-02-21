@@ -1,0 +1,22 @@
+{
+  "name": "hapi-async-handlers",
+  "version": "0.0.1",
+  "description": "Hapi plugin to accept async methods as handlers",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --harmony node_modules/.bin/lab -c -L test/"
+  },
+  "author": "Adilson Schmitt Junior <adilsonschj@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "code": "^4.0.0",
+    "eslint-config-hapi": "^10.0.0",
+    "eslint-plugin-hapi": "^4.0.0",
+    "hapi": "^16.1.0",
+    "lab": "^12.1.0"
+  },
+  "dependencies": {
+    "boom": "^4.2.0",
+    "hoek": "^4.1.0"
+  }
+}
